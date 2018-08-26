@@ -38,6 +38,7 @@ $(document).ready(function () {
                 wins++;
                 $("#wins").text(wins);
                 $("#score").text("0");
+                $("#winOrLose").text("You win!");
                 score = 0;
                 randomNum = numberRange(19, 120);
                 $("#randomNum").text(randomNum);
@@ -47,6 +48,7 @@ $(document).ready(function () {
                 losses++;
                 $("#losses").text(losses);
                 $("#score").text("0");
+                $("#winOrLose").text("You lose!");
                 score = 0;
                 randomNum = numberRange(19, 120);
                 $("#randomNum").text(randomNum);
@@ -55,6 +57,7 @@ $(document).ready(function () {
             }
         } else {
             gamePlaying = true;
+            $("#winOrLose").empty();
         };
     });
 });

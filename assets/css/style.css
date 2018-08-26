@@ -1,0 +1,67 @@
+body{
+    text-align: center;
+    background-image: url("../images/cavern.jpg");
+}
+
+#title{
+    font-size: 5rem;
+    padding: 10px 8px 20px 8px;
+    color: tan;
+    width: 50%;
+    margin: 0 auto;
+    font-family: 'Merienda', cursive;
+}
+
+p, span{
+    font-family: 'Comfortaa', cursive;
+}
+
+#instructions{
+    float: left;
+    width: 40%;
+    padding: 18px 30px;
+    margin-left: 5%;
+    background-color: plum;
+    line-height: 1.8rem;
+}
+
+.crystal{
+    margin: 20px 10px;
+}
+
+#randomNumDiv{
+    background-color: yellowgreen;
+    box-sizing: border-box;
+    width: 43%;
+    margin-right: 5%;
+    float: right;
+    padding: 15px 0px;
+}
+
+#winlose{
+    background-color: grey;
+    box-sizing: border-box;
+    width: 43%;
+    margin-right: 5%;
+    margin-top: 1%;
+    float: right;
+    padding: 10px 0px;
+}
+
+#scoreTitle{
+    background-color: aqua;
+    box-sizing: border-box;
+    width: 43%;
+    margin-right: 5%;
+    float: right;
+    padding: 10px 0px;
+}
+
+#score{
+    background-color: aqua;
+    box-sizing: border-box;
+    width: 43%;
+    margin-right: 5%;
+    float: right;
+    padding: 15px 0px;
+}
